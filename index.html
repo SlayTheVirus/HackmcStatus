@@ -1,4 +1,12 @@
-<script src="js.js"></script>
+<script>
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    };
+    xhr.send();
+};
+</script>
 
 <script>
 getJSON('https://api.mcsrvstat.us/2/hackmc.org',
