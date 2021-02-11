@@ -1,1 +1,1 @@
-# HackmcStatus
+# HackMCStatus
