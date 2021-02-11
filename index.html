@@ -1,3 +1,6 @@
+<script src="myscripts.js"></script>
+
+<script>
 getJSON('https://api.mcsrvstat.us/2/hackmc.org',
 function(err, data) {
   if (err !== null) {
@@ -6,3 +9,4 @@ function(err, data) {
     alert('Your query count: ' + data.query.count);
   }
 });
+</script>
